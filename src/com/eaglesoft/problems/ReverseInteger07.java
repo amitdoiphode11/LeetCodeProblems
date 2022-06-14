@@ -5,12 +5,12 @@ package com.eaglesoft.problems;
  */
 public class ReverseInteger07 {
     public static void main(String[] args) {
-        Solution1 solution = new Solution1();
+        Solution07 solution = new Solution07();
         System.out.println(solution.reverse(1534236469));
     }
 }
 
-class Solution1 {
+class Solution07 {
     public int reverse(int x) {
         boolean isNegative = false;
         if (x < 0) {

@@ -7,13 +7,13 @@ import java.util.Arrays;
  */
 public class SingleNumber136 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution136 solution136 = new Solution136();
         int[] numbs = new int[]{2, 2, 1, 4, 4};
-        System.out.println(solution.singleNumber(numbs));
+        System.out.println(solution136.singleNumber(numbs));
     }
 }
 
-class Solution {
+class Solution136 {
     /**
      * Using XOR operator find out the different element in given array.
      * This function used when only one single element is different.
